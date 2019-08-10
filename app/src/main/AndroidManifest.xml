@@ -18,6 +18,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.GreenDaoActivity"></activity>
+        <activity android:name=".activity.ContentProviderActivity"></activity>
+        <provider
+            android:authorities="com.zddatabase.teacherProviderLj"
+            android:name=".contentprovider.TeacherContentProvider"
+            android:exported="true"></provider>
     </application>
 
 </manifest>
